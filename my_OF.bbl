@@ -1,0 +1,433 @@
+\begin{thebibliography}{10}
+
+\bibitem{mery2020computer}
+Domingo Mery and Christian Pieringer.
+\newblock {\em Computer vision for x-ray testing: Imaging, systems, image
+  databases, and algorithms}.
+\newblock Springer Nature, 2020.
+
+\bibitem{abidi2005screener}
+Besma Abidi, Yue Zheng, Andrei Gribok, and Mongi Abidi.
+\newblock Screener evaluation of pseudo-colored single energy x-ray luggage
+  images.
+\newblock In {\em 2005 IEEE Computer Society Conference on Computer Vision and
+  Pattern Recognition (CVPR'05)-Workshops}, pages 35--35. IEEE, 2005.
+
+\bibitem{chen2005combinational}
+Zhiyu Chen, Yue Zheng, Besma~R Abidi, David~L Page, and Mongi~A Abidi.
+\newblock A combinational approach to the fusion, de-noising and enhancement of
+  dual-energy x-ray luggage images.
+\newblock In {\em 2005 IEEE Computer Society Conference on Computer Vision and
+  Pattern Recognition (CVPR'05)-Workshops}, pages 2--2. IEEE, 2005.
+
+\bibitem{abidi2004improving}
+Besma Abidi, Jimin Liang, Mark Mitckes, and Mongi Abidi.
+\newblock Improving the detection of low-density weapons in x-ray luggage scans
+  using image enhancement and novel scene-decluttering techniques.
+\newblock {\em Journal of electronic imaging}, 13(3):523--538, 2004.
+
+\bibitem{singh2005optimizing}
+Maneesha Singh and Sameer Singh.
+\newblock Optimizing image enhancement for screening luggage at airports.
+\newblock In {\em CIHSPS 2005. Proceedings of the 2005 IEEE International
+  Conference on Computational Intelligence for Homeland Security and Personal
+  Safety, 2005.}, pages 131--136. IEEE, 2005.
+
+\bibitem{chan2010enhanced}
+Jer Chan, Paul Evans, and Xun Wang.
+\newblock Enhanced color coding scheme for kinetic depth effect x-ray (kdex)
+  imaging.
+\newblock In {\em 44th Annual 2010 IEEE International Carnahan Conference on
+  Security Technology}, pages 155--160. IEEE, 2010.
+
+\bibitem{rogers2016threat}
+Thomas~W Rogers, Nicolas Jaccard, Emmanouil~D Protonotarios, James Ollier,
+  Edward~J Morton, and Lewis~D Griffin.
+\newblock Threat image projection (tip) into x-ray images of cargo containers
+  for training humans and machines.
+\newblock In {\em 2016 IEEE International Carnahan Conference on Security
+  Technology (ICCST)}, pages 1--7. IEEE, 2016.
+
+\bibitem{mitckes2003threat}
+Mark Mitckes.
+\newblock Threat image projection--an overview.
+\newblock {\em Imaging, Robotics, and Intelligent Systems Laboratory Dept. of
+  Electrical and Computer Engineering. The University of Tennessee}, 2003.
+
+\bibitem{mery2017logarithmic}
+Domingo Mery and Aggelos~K Katsaggelos.
+\newblock A logarithmic x-ray imaging model for baggage inspection: Simulation
+  and object detection.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition Workshops}, pages 57--65, 2017.
+
+\bibitem{cutler2009use}
+Victoria Cutler and Susan Paddock.
+\newblock Use of threat image projection (tip) to enhance security performance.
+\newblock In {\em 43rd Annual 2009 International Carnahan Conference on
+  Security Technology}, pages 46--51. IEEE, 2009.
+
+\bibitem{bhowmikevaluating}
+Neelanjan Bhowmik, Qian Wang, Yona Falinie~A Gaus, Marcin Szarek, and Toby~P
+  Breckon.
+\newblock Evaluating convolutional neural networks for prohibited item
+  detection using real and synthetically composited x-ray imagery.
+\newblock {\em 171,000 190M}, page~15.
+
+\bibitem{bacstan2011visual}
+Muhammet Ba{\c{s}}tan, Mohammad~Reza Yousefi, and Thomas~M Breuel.
+\newblock Visual words on baggage x-ray images.
+\newblock In {\em Computer Analysis of Images and Patterns: 14th International
+  Conference, CAIP 2011, Seville, Spain, August 29-31, 2011, Proceedings, Part
+  I}, pages 360--368. Springer, 2011.
+
+\bibitem{hartigan1979algorithm}
+John~A Hartigan and Manchek~A Wong.
+\newblock Algorithm as 136: A k-means clustering algorithm.
+\newblock {\em Journal of the royal statistical society. series c (applied
+  statistics)}, 28(1):100--108, 1979.
+
+\bibitem{breiman2001random}
+Leo Breiman.
+\newblock Random forests.
+\newblock {\em Machine learning}, 45:5--32, 2001.
+
+\bibitem{hearst1998support}
+Marti~A. Hearst, Susan~T Dumais, Edgar Osuna, John Platt, and Bernhard
+  Scholkopf.
+\newblock Support vector machines.
+\newblock {\em IEEE Intelligent Systems and their applications}, 13(4):18--28,
+  1998.
+
+\bibitem{kundegorski2016using}
+Mikolaj~E Kundegorski, Samet Ak{\c{c}}ay, Michael Devereux, Andre Mouton, and
+  Toby~P Breckon.
+\newblock On using feature descriptors as visual words for object detection
+  within x-ray baggage security screening.
+\newblock 2016.
+
+\bibitem{mery2016object}
+Domingo Mery, Erick Svec, and Marco Arias.
+\newblock Object recognition in baggage inspection using adaptive sparse
+  representations of x-ray images.
+\newblock In {\em Image and Video Technology: 7th Pacific-Rim Symposium, PSIVT
+  2015, Auckland, New Zealand, November 25-27, 2015, Revised Selected Papers
+  7}, pages 709--720. Springer, 2016.
+
+\bibitem{zhang2014joint}
+Jian Zhang, Li~Zhang, Ziran Zhao, Yaohong Liu, Jianping Gu, Qiang Li, and
+  Duokun Zhang.
+\newblock Joint shape and texture based x-ray cargo image classification.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition workshops}, pages 266--273, 2014.
+
+\bibitem{jaccard2014automated}
+Nicolas Jaccard, Thomas~W Rogers, and Lewis~D Griffin.
+\newblock Automated detection of cars in transmission x-ray images of freight
+  containers.
+\newblock In {\em 2014 11th IEEE International Conference on Advanced Video and
+  Signal Based Surveillance (AVSS)}, pages 387--392. IEEE, 2014.
+
+\bibitem{zhang2015study}
+Ning Zhang and Jinfu Zhu.
+\newblock A study of x-ray machine image local semantic features extraction
+  model based on bag-of-words for airport security.
+\newblock {\em International journal on smart sensing and intelligent systems},
+  8(1):45--64, 2015.
+
+\bibitem{mery2013detection}
+Domingo Mery, German Mondragon, Vladimir Riffo, and Irene Zuccar.
+\newblock Detection of regular objects in baggage using multiple x-ray views.
+\newblock {\em Insight-Non-Destructive Testing and Condition Monitoring},
+  55(1):16--20, 2013.
+
+\bibitem{bacstan2015multi}
+Muhammet Ba{\c{s}}tan.
+\newblock Multi-view object detection in dual-energy x-ray images.
+\newblock {\em Machine Vision and Applications}, 26(7):1045--1060, 2015.
+
+\bibitem{bastan2013object}
+Muhammet Bastan, Wonmin Byeon, Thomas~M Breuel, et~al.
+\newblock Object recognition in multi-view dual energy x-ray images.
+\newblock In {\em BMVC}, volume~1, page~11, 2013.
+
+\bibitem{schmidt2012visual}
+Ludwig Schmidt-Hackenberg, Mohammad~Reza Yousefi, and Thomas~M Breuel.
+\newblock Visual cortex inspired features for object detection in x-ray images.
+\newblock In {\em Proceedings of the 21st International Conference on Pattern
+  Recognition (ICPR2012)}, pages 2573--2576. IEEE, 2012.
+
+\bibitem{lazebnik2005sparse}
+Svetlana Lazebnik, Cordelia Schmid, and Jean Ponce.
+\newblock A sparse texture representation using local affine regions.
+\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
+  27(8):1265--1278, 2005.
+
+\bibitem{franzel2012object}
+Thorsten Franzel, Uwe Schmidt, and Stefan Roth.
+\newblock Object detection in multi-view x-ray images.
+\newblock In {\em Joint DAGM (German association for pattern recognition) and
+  OAGM symposium}, pages 144--154. Springer, 2012.
+
+\bibitem{stefan2007human}
+M~Stefan and A~Schwaninger.
+\newblock Human-machine interaction in x-ray screening.
+\newblock In {\em Proceedings of the Carnahan Conference on Security
+  Technology}, volume~41, pages 13--19, 2007.
+
+\bibitem{von2010multi}
+Claudia~Christina Von~Bastian, Adrian Schwaninger, and Stefan Michel.
+\newblock Do multi-view x-ray systems improve x-ray image interpretation in
+  airport security screening?
+\newblock 2010.
+
+\bibitem{paranjape1998segmentation}
+R~Paranjape, M~Sluser, and E~Runtz.
+\newblock Segmentation of handguns in dual energy x-ray imagery of passenger
+  carry-on baggage.
+\newblock In {\em Conference Proceedings. IEEE Canadian Conference on
+  Electrical and Computer Engineering (Cat. No. 98TH8341)}, volume~1, pages
+  377--380. IEEE, 1998.
+
+\bibitem{sluser1999model}
+M~Sluser and Raman Paranjape.
+\newblock Model-based probabilistic relaxation segmentation applied to threat
+  detection in airport x-ray imagery.
+\newblock In {\em Engineering Solutions for the Next Millennium. 1999 IEEE
+  Canadian Conference on Electrical and Computer Engineering (Cat. No.
+  99TH8411)}, volume~2, pages 720--726. IEEE, 1999.
+
+\bibitem{ding2006x}
+Jianli Ding, Yuanxiang Li, Xing Xu, and Lingling Wang.
+\newblock X-ray image segmentation by attribute relational graph matching.
+\newblock In {\em 2006 8th international Conference on Signal Processing},
+  volume~2. IEEE, 2006.
+
+\bibitem{wang2005structural}
+Lingling Wang, Yuanxiang Li, Jianli Ding, and Kangshun Li.
+\newblock Structural x-ray image segmentation for threat detection by attribute
+  relational graph matching.
+\newblock In {\em 2005 International Conference on Neural Networks and Brain},
+  volume~2, pages 1206--1211. IEEE, 2005.
+
+\bibitem{mallia2019graph}
+Noeleene Mallia-Parfitt and Georgios Giasemidis.
+\newblock Graph clustering and variational image segmentation for automated
+  firearm detection in x-ray images.
+\newblock {\em IET Image Processing}, 13(7):1105--1114, 2019.
+
+\bibitem{akccay2016transfer}
+Samet Ak{\c{c}}ay, Mikolaj~E Kundegorski, Michael Devereux, and Toby~P Breckon.
+\newblock Transfer learning using convolutional neural networks for object
+  classification within x-ray baggage security imagery.
+\newblock In {\em 2016 IEEE International Conference on Image Processing
+  (ICIP)}, pages 1057--1061. IEEE, 2016.
+
+\bibitem{jaccard2017detection}
+Nicolas Jaccard, Thomas~W Rogers, Edward~J Morton, and Lewis~D Griffin.
+\newblock Detection of concealed cars in complex cargo x-ray imagery using deep
+  learning.
+\newblock {\em Journal of X-ray Science and Technology}, 25(3):323--339, 2017.
+
+\bibitem{griffin2009basic}
+Lewis~D Griffin, Martin Lillholm, Mike Crosier, and Justus Van~Sande.
+\newblock Basic image features (bifs) arising from approximate symmetry type.
+\newblock In {\em Scale Space and Variational Methods in Computer Vision:
+  Second International Conference, SSVM 2009, Voss, Norway, June 1-5, 2009.
+  Proceedings 2}, pages 343--355. Springer, 2009.
+
+\bibitem{bosch2007representing}
+Anna Bosch, Andrew Zisserman, and Xavier Munoz.
+\newblock Representing shape with a spatial pyramid kernel.
+\newblock In {\em Proceedings of the 6th ACM international conference on Image
+  and video retrieval}, pages 401--408, 2007.
+
+\bibitem{jaccard2016automated}
+Nicolas Jaccard, Thomas~W Rogers, Edward~J Morton, and Lewis~D Griffin.
+\newblock Automated detection of smuggled high-risk security threats using deep
+  learning.
+\newblock In {\em 7th International Conference on Imaging for Crime Detection
+  and Prevention (ICDP 2016)}, pages 1--6. IET, 2016.
+
+\bibitem{zhao2018gan}
+Zihao Zhao, Haigang Zhang, and Jinfeng Yang.
+\newblock A gan-based image generation method for x-ray security prohibited
+  items.
+\newblock In {\em Pattern Recognition and Computer Vision: First Chinese
+  Conference, PRCV 2018, Guangzhou, China, November 23-26, 2018, Proceedings,
+  Part I 1}, pages 420--430. Springer, 2018.
+
+\bibitem{yang2019data}
+Jinfeng Yang, Zihao Zhao, Haigang Zhang, and Yihua Shi.
+\newblock Data augmentation for x-ray prohibited item images using generative
+  adversarial networks.
+\newblock {\em IEEE Access}, 7:28894--28902, 2019.
+
+\bibitem{miao2019sixray}
+Caijing Miao, Lingxi Xie, Fang Wan, Chi Su, Hongye Liu, Jianbin Jiao, and
+  Qixiang Ye.
+\newblock Sixray: A large-scale security inspection x-ray benchmark for
+  prohibited item discovery in overlapping images.
+\newblock In {\em Proceedings of the IEEE/CVF conference on computer vision and
+  pattern recognition}, pages 2119--2128, 2019.
+
+\bibitem{wei2020occluded}
+Yanlu Wei, Renshuai Tao, Zhangjie Wu, Yuqing Ma, Libo Zhang, and Xianglong Liu.
+\newblock Occluded prohibited items detection: An x-ray security inspection
+  benchmark and de-occlusion attention module.
+\newblock In {\em Proceedings of the 28th ACM international conference on
+  multimedia}, pages 138--146, 2020.
+
+\bibitem{caldwell2017transferring}
+Matthew Caldwell, M~Ransley, Thomas~W Rogers, and Lewis~D Griffin.
+\newblock Transferring x-ray based automated threat detection between scanners
+  with different energies and resolution.
+\newblock In {\em Counterterrorism, Crime Fighting, Forensics, and Surveillance
+  Technologies}, volume 10441, pages 130--139. SPIE, 2017.
+
+\bibitem{gaus2019evaluating}
+Yona Falinie~A Gaus, Neelanjan Bhowmik, Samet Akcay, and Toby Breckon.
+\newblock Evaluating the transferability and adversarial discrimination of
+  convolutional neural networks for threat object detection and classification
+  within x-ray security imagery.
+\newblock In {\em 2019 18th IEEE International Conference On Machine Learning
+  And Applications (ICMLA)}, pages 420--425. IEEE, 2019.
+
+\bibitem{liang2018automatic}
+Kevin~J Liang, Geert Heilmann, Christopher Gregory, Souleymane~O Diallo, David
+  Carlson, Gregory~P Spell, John~B Sigman, Kris Roe, and Lawrence Carin.
+\newblock Automatic threat recognition of prohibited items at aviation
+  checkpoint with x-ray imaging: a deep learning approach.
+\newblock In {\em Anomaly Detection and Imaging with X-Rays (ADIX) III}, volume
+  10632, page 1063203. SPIE, 2018.
+
+\bibitem{steitz2018multi}
+Jan-Martin~O Steitz, Faraz Saeedan, and Stefan Roth.
+\newblock Multi-view x-ray r-cnn.
+\newblock In {\em German Conference on Pattern Recognition}, pages 153--168.
+  Springer, 2018.
+
+\bibitem{redmon2016you}
+J~Redmon.
+\newblock You only look once: Unified, real-time object detection.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, 2016.
+
+\bibitem{girshick2014rich}
+Ross Girshick, Jeff Donahue, Trevor Darrell, and Jitendra Malik.
+\newblock Rich feature hierarchies for accurate object detection and semantic
+  segmentation.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 580--587, 2014.
+
+\bibitem{girshick2015fast}
+Ross Girshick.
+\newblock Fast r-cnn.
+\newblock {\em arXiv preprint arXiv:1504.08083}, 2015.
+
+\bibitem{ren2016faster}
+Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun.
+\newblock Faster r-cnn: Towards real-time object detection with region proposal
+  networks.
+\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
+  39(6):1137--1149, 2016.
+
+\bibitem{szegedy2015going}
+Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir
+  Anguelov, Dumitru Erhan, Vincent Vanhoucke, and Andrew Rabinovich.
+\newblock Going deeper with convolutions.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 1--9, 2015.
+
+\bibitem{neubeck2006efficient}
+Alexander Neubeck and Luc Van~Gool.
+\newblock Efficient non-maximum suppression.
+\newblock In {\em 18th international conference on pattern recognition
+  (ICPR'06)}, volume~3, pages 850--855. IEEE, 2006.
+
+\bibitem{redmon2017yolo9000}
+Joseph Redmon and Ali Farhadi.
+\newblock Yolo9000: better, faster, stronger.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 7263--7271, 2017.
+
+\bibitem{farhadi2018yolov3}
+Ali Farhadi and Joseph Redmon.
+\newblock Yolov3: An incremental improvement.
+\newblock In {\em Computer vision and pattern recognition}, volume 1804, pages
+  1--6. Springer Berlin/Heidelberg, Germany, 2018.
+
+\bibitem{he2016deep}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
+\newblock Deep residual learning for image recognition.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 770--778, 2016.
+
+\bibitem{lin2017feature}
+Tsung-Yi Lin, Piotr Doll{\'a}r, Ross Girshick, Kaiming He, Bharath Hariharan,
+  and Serge Belongie.
+\newblock Feature pyramid networks for object detection.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 2117--2125, 2017.
+
+\bibitem{he2015spatial}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
+\newblock Spatial pyramid pooling in deep convolutional networks for visual
+  recognition.
+\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
+  37(9):1904--1916, 2015.
+
+\bibitem{bochkovskiy2020yolov4}
+Alexey Bochkovskiy, Chien-Yao Wang, and Hong-Yuan~Mark Liao.
+\newblock Yolov4: Optimal speed and accuracy of object detection.
+\newblock {\em arXiv preprint arXiv:2004.10934}, 2020.
+
+\bibitem{liu2018path}
+Shu Liu, Lu~Qi, Haifang Qin, Jianping Shi, and Jiaya Jia.
+\newblock Path aggregation network for instance segmentation.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 8759--8768, 2018.
+
+\bibitem{yolov5}
+Glenn Jocher.
+\newblock Yolov5 by ultralytics.
+\newblock \url{https://github.com/ultralytics/yolov5}, 2020.
+
+\bibitem{ge2021yolox}
+Z~Ge.
+\newblock Yolox: Exceeding yolo series in 2021.
+\newblock {\em arXiv preprint arXiv:2107.08430}, 2021.
+
+\bibitem{li2022yolov6}
+Chuyi Li, Lulu Li, Hongliang Jiang, Kaiheng Weng, Yifei Geng, Liang Li, Zaidan
+  Ke, Qingyuan Li, Meng Cheng, Weiqiang Nie, et~al.
+\newblock Yolov6: A single-stage object detection framework for industrial
+  applications.
+\newblock {\em arXiv preprint arXiv:2209.02976}, 2022.
+
+\bibitem{ding2021repvgg}
+Xiaohan Ding, Xiangyu Zhang, Ningning Ma, Jungong Han, Guiguang Ding, and Jian
+  Sun.
+\newblock Repvgg: Making vgg-style convnets great again.
+\newblock In {\em Proceedings of the IEEE/CVF conference on computer vision and
+  pattern recognition}, pages 13733--13742, 2021.
+
+\bibitem{feng2021tood}
+Chengjian Feng, Yujie Zhong, Yu~Gao, Matthew~R Scott, and Weilin Huang.
+\newblock Tood: Task-aligned one-stage object detection.
+\newblock In {\em 2021 IEEE/CVF International Conference on Computer Vision
+  (ICCV)}, pages 3490--3499. IEEE Computer Society, 2021.
+
+\bibitem{wang2023yolov7}
+Chien-Yao Wang, Alexey Bochkovskiy, and Hong-Yuan~Mark Liao.
+\newblock Yolov7: Trainable bag-of-freebies sets new state-of-the-art for
+  real-time object detectors.
+\newblock In {\em Proceedings of the IEEE/CVF conference on computer vision and
+  pattern recognition}, pages 7464--7475, 2023.
+
+\bibitem{yolov8}
+Jing Qiu Jonathan~Choa Glenn~Jocher, Ayush~Chaurasia.
+\newblock Ultralytics yolov8: Cutting-edge, real-time object detection.
+\newblock \url{https://github.com/ultralytics/ultralytics}, 2023.
+
+\end{thebibliography}

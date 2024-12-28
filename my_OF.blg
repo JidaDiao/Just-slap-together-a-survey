@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: my_OF.aux
+The style file: unsrt.bst
+Database file #1: ref.bib
+Warning--I didn't find a database entry for "1"
+Warning--I didn't find a database entry for "8"
+Warning--I didn't find a database entry for "6"
+Warning--I didn't find a database entry for "11"
+Warning--empty year in bhowmikevaluating
+Warning--empty journal in kundegorski2016using
+Warning--can't use both volume and number fields in bastan2013object
+Warning--empty journal in von2010multi
+Too many commas in name 1 of "Glenn Jocher, Ayush Chaurasia, Jing Qiu, Jonathan Choa" for entry yolov8
+while executing---line 944 of file unsrt.bst
+You've used 66 entries,
+            1791 wiz_defined-function locations,
+            802 strings with 17600 characters,
+and the built_in function-call counts, 21129 in all, are:
+= -- 2016
+> -- 841
+< -- 51
++ -- 305
+- -- 239
+* -- 1291
+:= -- 2944
+add.period$ -- 224
+call.type$ -- 66
+change.case$ -- 65
+chr.to.int$ -- 0
+cite$ -- 70
+duplicate$ -- 1067
+empty$ -- 2034
+format.name$ -- 239
+if$ -- 5043
+int.to.chr$ -- 0
+int.to.str$ -- 66
+missing$ -- 65
+newline$ -- 333
+num.names$ -- 66
+pop$ -- 307
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 683
+stack$ -- 0
+substring$ -- 1554
+swap$ -- 478
+text.length$ -- 51
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 4
+while$ -- 209
+width$ -- 68
+write$ -- 749
+(There was 1 error message)
