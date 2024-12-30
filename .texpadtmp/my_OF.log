@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.26)  28 DEC 2024 16:55
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.26)  30 DEC 2024 21:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -401,7 +401,15 @@ Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 ))
 Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 17.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/multicol.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \c@tracingmulticols=\count309
 
@@ -474,86 +482,92 @@ Package multicol Warning: May not work with the twocolumn option on input line 1
 \mult@nat@firstbox=\box103
 \colbreak@box=\box104
 \mc@col@check@num=\count318
-) (/Users/jixiaojian/Library/Application Support/Mountain Duck/Volumes.noindex/www.jidadiao.fun – WebDAV (HTTPS).localized/SATA硬盘2/工作/东方的工作/项目/基于深度学习的X光图像违禁品检测算法/latexpaper/.texpadtmp/my_OF.aux)
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip65
+\multirow@cntb=\count319
+\multirow@dima=\skip66
+\bigstrutjot=\dimen259
+) (/Users/jixiaojian/Library/Application Support/Mountain Duck/Volumes.noindex/www.jidadiao.fun – WebDAV (HTTPS).localized/SATA硬盘2/工作/东方的工作/项目/基于深度学习的X光图像违禁品检测算法/Just-slap-together-a-survey/.texpadtmp/my_OF.aux)
 \openout1 = `my_OF.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 22.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 22.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 22.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 22.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 22.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 22.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 22.
-LaTeX Font Info:    Redeclaring math accent \check on input line 22.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 22.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 22.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 22.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 22.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 24.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 24.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 24.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 24.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 24.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 24.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 24.
+LaTeX Font Info:    Redeclaring math accent \check on input line 24.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 24.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 24.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 24.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 24.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 24.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 22.
+(Font)              `operators' in the math version `normal' on input line 24.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 22.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 24.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 22.
+(Font)              `operators' in the math version `bold' on input line 24.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 22.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 24.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 22.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 22.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 22.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 22.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 22.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 24.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 22.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 22.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 22.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 22.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 24.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -598,99 +612,112 @@ Package color Info: Driver file: xetex.def on input line 149.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 22.
- (/Users/jixiaojian/Library/Application Support/Mountain Duck/Volumes.noindex/www.jidadiao.fun – WebDAV (HTTPS).localized/SATA硬盘2/工作/东方的工作/项目/基于深度学习的X光图像违禁品检测算法/latexpaper/.texpadtmp/my_OF.out) (/Users/jixiaojian/Library/Application Support/Mountain Duck/Volumes.noindex/www.jidadiao.fun – WebDAV (HTTPS).localized/SATA硬盘2/工作/东方的工作/项目/基于深度学习的X光图像违禁品检测算法/latexpaper/.texpadtmp/my_OF.out)
+Package hyperref Info: Link coloring ON on input line 24.
+ (/Users/jixiaojian/Library/Application Support/Mountain Duck/Volumes.noindex/www.jidadiao.fun – WebDAV (HTTPS).localized/SATA硬盘2/工作/东方的工作/项目/基于深度学习的X光图像违禁品检测算法/Just-slap-together-a-survey/.texpadtmp/my_OF.out) (/Users/jixiaojian/Library/Application Support/Mountain Duck/Volumes.noindex/www.jidadiao.fun – WebDAV (HTTPS).localized/SATA硬盘2/工作/东方的工作/项目/基于深度学习的X光图像违禁品检测算法/Just-slap-together-a-survey/.texpadtmp/my_OF.out)
 \@outlinefile=\write3
 \openout3 = `my_OF.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 39.
+(Font)              <12> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 39.
+(Font)              <8> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 39.
+(Font)              <6> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 48.
+(Font)              <10.95> on input line 50.
+File: x光示意图.pdf Graphic file (type pdf)
+<use x光示意图.pdf>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
 
 
-] [2] [3]
-Underfull \hbox (badness 4341) in paragraph at lines 91--92
+]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 66.
+
+
+LaTeX Warning: Float too large for page by 259.42084pt on input line 87.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2] [3] [4]
+Underfull \hbox (badness 4341) in paragraph at lines 127--128
 []\TU/STSong(0)/m/n/10.95 在 该 系 列 众 多 版 本 中，| \TU/lmr/m/n/10.95 YOLOv1 \TU/STSong(0)/m/n/10.95 至
  []
 
-[4]
+[5] [6] [7] [8] [9] [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
+
 Underfull \vbox (badness 2932) has occurred while \output is active []
 
- [6] [7] [8] [9] [10]
+ [11]
 
-LaTeX Warning: Citation `1' on page 11 undefined on input line 184.
+LaTeX Warning: Citation `1' on page 12 undefined on input line 220.
 
 File: EVO.png Graphic file (type bmp)
 <EVO.png>
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 187--188
+Overfull \hbox (5.0pt too wide) in paragraph at lines 223--224
  [] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11]
+ [12]
 
-LaTeX Warning: Citation `8' on page 12 undefined on input line 197.
+LaTeX Warning: Citation `8' on page 13 undefined on input line 233.
 
 File: IRWA.png Graphic file (type bmp)
 <IRWA.png>
-
-Overfull \hbox (5.0pt too wide) in paragraph at lines 200--201
- [] 
- []
-
-
-LaTeX Warning: Citation `8' on page 12 undefined on input line 207.
-
-File: MT.png Graphic file (type bmp)
-<MT.png>
-
-Overfull \hbox (5.0pt too wide) in paragraph at lines 210--211
- [] 
- []
-
-
-LaTeX Warning: Citation `6' on page 12 undefined on input line 217.
-
-
-LaTeX Warning: Citation `6' on page 12 undefined on input line 219.
-
-File: BCO.png Graphic file (type bmp)
-<BCO.png>
-
-Overfull \hbox (5.0pt too wide) in paragraph at lines 222--223
- [] 
- []
-
-[12]
-
-LaTeX Warning: Citation `11' on page 13 undefined on input line 233.
-
-File: TEEN.png Graphic file (type bmp)
-<TEEN.png>
 
 Overfull \hbox (5.0pt too wide) in paragraph at lines 236--237
  [] 
  []
 
 
-LaTeX Warning: Citation `6' on page 13 undefined on input line 242.
+LaTeX Warning: Citation `8' on page 13 undefined on input line 243.
 
-(./my_OF.bbl
+File: MT.png Graphic file (type bmp)
+<MT.png>
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 246--247
+ [] 
+ []
+
+
+LaTeX Warning: Citation `6' on page 13 undefined on input line 253.
+
+
+LaTeX Warning: Citation `6' on page 13 undefined on input line 255.
+
+File: BCO.png Graphic file (type bmp)
+<BCO.png>
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 258--259
+ [] 
+ []
+
+[13]
+
+LaTeX Warning: Citation `11' on page 14 undefined on input line 269.
+
+File: TEEN.png Graphic file (type bmp)
+<TEEN.png>
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 272--273
+ [] 
+ []
+
+
+LaTeX Warning: Citation `6' on page 14 undefined on input line 278.
+
+[14] (./my_OF.bbl
 Underfull \hbox (badness 1082) in paragraph at lines 4--8
 []\TU/lmr/m/n/10.95 Domingo Mery and Christian Pieringer.
  []
@@ -700,7 +727,7 @@ Underfull \hbox (badness 1622) in paragraph at lines 10--15
 []\TU/lmr/m/n/10.95 Besma Abidi, Yue Zheng, Andrei Gri-
  []
 
-[13]
+[15]
 Underfull \hbox (badness 1342) in paragraph at lines 71--76
 []\TU/lmr/m/n/10.95 Neelanjan Bhowmik, Qian Wang, Yona
  []
@@ -715,7 +742,7 @@ Underfull \hbox (badness 7796) in paragraph at lines 96--101
 []\TU/lmr/m/n/10.95 Marti A. Hearst, Susan T Dumais,
  []
 
-[14]
+
 Underfull \hbox (badness 3078) in paragraph at lines 103--108
 []\TU/lmr/m/n/10.95 Mikolaj E Kundegorski, Samet Akçay,
  []
@@ -730,7 +757,7 @@ Underfull \hbox (badness 1014) in paragraph at lines 110--116
 []\TU/lmr/m/n/10.95 Domingo Mery, Erick Svec, and Marco
  []
 
-
+[16]
 Underfull \hbox (badness 10000) in paragraph at lines 139--143
 []\TU/lmr/m/n/10.95 Domingo Mery, German Mondragon,
  []
@@ -750,12 +777,12 @@ Underfull \hbox (badness 2050) in paragraph at lines 155--159
 \TU/lmr/m/it/10.95 Pattern Recognition (ICPR2012)\TU/lmr/m/n/10.95 , pages
  []
 
-[15]
+
 Underfull \hbox (badness 1701) in paragraph at lines 179--183
 []\TU/lmr/m/n/10.95 Claudia Christina Von Bastian, Adrian
  []
 
-
+[17]
 Underfull \hbox (badness 3078) in paragraph at lines 220--225
 []\TU/lmr/m/n/10.95 Samet Akçay, Mikolaj E Kundegorski,
  []
@@ -765,17 +792,17 @@ Underfull \hbox (badness 4569) in paragraph at lines 240--244
 []\TU/lmr/m/n/10.95 Anna Bosch, Andrew Zisserman, and
  []
 
-[16]
+
 Underfull \hbox (badness 2042) in paragraph at lines 253--259
 []\TU/lmr/m/n/10.95 Zihao Zhao, Haigang Zhang, and Jin-
  []
 
-
+[18]
 Underfull \hbox (badness 1038) in paragraph at lines 289--295
 \TU/lmr/m/it/10.95 On Machine Learning And Applications
  []
 
-[17]
+
 Underfull \hbox (badness 1102) in paragraph at lines 329--334
 \TU/lmr/m/n/10.95 posal networks.  \TU/lmr/m/it/10.95 IEEE transactions on
  []
@@ -785,7 +812,7 @@ Underfull \hbox (badness 1137) in paragraph at lines 336--341
 \TU/lmr/m/n/10.95 Pierre Sermanet, Scott Reed, Dragomir
  []
 
-
+[19]
 Underfull \hbox (badness 1248) in paragraph at lines 361--365
 []\TU/lmr/m/n/10.95 Kaiming He, Xiangyu Zhang, Shaoqing
  []
@@ -827,7 +854,7 @@ Underfull \hbox (badness 6978) in paragraph at lines 392--395
 []\TU/lmr/m/n/10.95 Glenn Jocher.  Yolov5 by ultralyt-
  []
 
-[18]
+
 Underfull \hbox (badness 3735) in paragraph at lines 429--432
 \TU/lmr/m/n/10.95 Ayush Chaurasia.  Ultralytics yolov8:
  []
@@ -837,9 +864,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 429--432
 [][]$[][][][][] [] [] [] [][][][][][] [] [][][] [] [][][][][][][][][][][] []
  []
 
-) [19
-
-] (/Users/jixiaojian/Library/Application Support/Mountain Duck/Volumes.noindex/www.jidadiao.fun – WebDAV (HTTPS).localized/SATA硬盘2/工作/东方的工作/项目/基于深度学习的X光图像违禁品检测算法/latexpaper/.texpadtmp/my_OF.aux)
+) [20] (/Users/jixiaojian/Library/Application Support/Mountain Duck/Volumes.noindex/www.jidadiao.fun – WebDAV (HTTPS).localized/SATA硬盘2/工作/东方的工作/项目/基于深度学习的X光图像违禁品检测算法/Just-slap-together-a-survey/.texpadtmp/my_OF.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/07/14>
@@ -849,15 +874,15 @@ L3 programming layer <2022/07/14>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `my_OF.out' has not changed.
-(rerunfilecheck)             Checksum: D70A711CD6FEA08403DFB79CB4C2FCF0;2854.
+(rerunfilecheck)             Checksum: A606B477446348E092250EF1D18D5F70;2769.
  ) 
 Here is how much of TeX's memory you used:
- 16180 strings out of 474773
- 366846 string characters out of 5757723
- 1954839 words of memory out of 5000000
- 38093 multiletter control sequences out of 15000+600000
+ 16348 strings out of 474773
+ 371266 string characters out of 5757723
+ 1955839 words of memory out of 5000000
+ 38247 multiletter control sequences out of 15000+600000
  563995 words of font info for 85 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,8n,97p,556b,459s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,11n,97p,556b,455s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on /Users/jixiaojian/Library/Application Support/Mountain Duck/Volumes.noindex/www.jidadiao.fun – WebDAV (HTTPS).localized/SATA硬盘2/工作/东方的工作/项目/基于深度学习的X光图像违禁品检测算法/latexpaper/.texpadtmp/my_OF.pdf (19 pages).
+Output written on /Users/jixiaojian/Library/Application Support/Mountain Duck/Volumes.noindex/www.jidadiao.fun – WebDAV (HTTPS).localized/SATA硬盘2/工作/东方的工作/项目/基于深度学习的X光图像违禁品检测算法/Just-slap-together-a-survey/.texpadtmp/my_OF.pdf (20 pages).
