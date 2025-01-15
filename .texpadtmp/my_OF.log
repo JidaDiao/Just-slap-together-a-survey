@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.26)  1 JAN 2025 21:23
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.26)  15 JAN 2025 17:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -670,99 +670,40 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-Overfull \hbox (0.65302pt too wide) in paragraph at lines 100--100
- []|[]| 
- []
-
-
-Overfull \hbox (5.68785pt too wide) in alignment at lines 89--108
+Overfull \hbox (25.19995pt too wide) in alignment at lines 89--108
 [][][][] 
  []
 
 [3] [4]
-Underfull \hbox (badness 4341) in paragraph at lines 135--136
-[]\TU/STSong(0)/m/n/10.95 在 该 系 列 众 多 版 本 中，| \TU/lmr/m/n/10.95 YOLOv1 \TU/STSong(0)/m/n/10.95 至
- []
+File: 发展流程图.pdf Graphic file (type pdf)
+<use 发展流程图.pdf>
+ [5]
 
-[5] [6]
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 148.
+
+File: YOLOV1结构图.pdf Graphic file (type pdf)
+<use YOLOV1结构图.pdf>
+[6]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [7]
 Underfull \vbox (badness 2932) has occurred while \output is active []
 
- [7] [8] [9] [10] [11]
-
-LaTeX Warning: Citation `1' on page 12 undefined on input line 228.
-
-File: EVO.png Graphic file (type bmp)
-<EVO.png>
-
-Overfull \hbox (5.0pt too wide) in paragraph at lines 231--232
- [] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [12]
-
-LaTeX Warning: Citation `8' on page 13 undefined on input line 241.
-
-File: IRWA.png Graphic file (type bmp)
-<IRWA.png>
-
-Overfull \hbox (5.0pt too wide) in paragraph at lines 244--245
- [] 
- []
-
-
-LaTeX Warning: Citation `8' on page 13 undefined on input line 251.
-
-File: MT.png Graphic file (type bmp)
-<MT.png>
-
-Overfull \hbox (5.0pt too wide) in paragraph at lines 254--255
- [] 
- []
-
-
-LaTeX Warning: Citation `6' on page 13 undefined on input line 261.
-
-
-LaTeX Warning: Citation `6' on page 13 undefined on input line 263.
-
-File: BCO.png Graphic file (type bmp)
-<BCO.png>
-
-Overfull \hbox (5.0pt too wide) in paragraph at lines 266--267
- [] 
- []
-
-[13]
-
-LaTeX Warning: Citation `11' on page 14 undefined on input line 277.
-
-File: TEEN.png Graphic file (type bmp)
-<TEEN.png>
-
-Overfull \hbox (5.0pt too wide) in paragraph at lines 280--281
- [] 
- []
-
-
-LaTeX Warning: Citation `6' on page 14 undefined on input line 286.
-
-[14] (./my_OF.bbl
+ [8] [9] [10] [11] [12] (./my_OF.bbl
 Underfull \hbox (badness 1082) in paragraph at lines 4--8
 []\TU/lmr/m/n/10.95 Domingo Mery and Christian Pieringer.
  []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 1622) in paragraph at lines 10--15
 []\TU/lmr/m/n/10.95 Besma Abidi, Yue Zheng, Andrei Gri-
  []
 
-[15]
+[13]
 Underfull \hbox (badness 1342) in paragraph at lines 71--76
 []\TU/lmr/m/n/10.95 Neelanjan Bhowmik, Qian Wang, Yona
  []
@@ -792,7 +733,7 @@ Underfull \hbox (badness 1014) in paragraph at lines 110--116
 []\TU/lmr/m/n/10.95 Domingo Mery, Erick Svec, and Marco
  []
 
-[16]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 139--143
 []\TU/lmr/m/n/10.95 Domingo Mery, German Mondragon,
  []
@@ -817,7 +758,7 @@ Underfull \hbox (badness 1701) in paragraph at lines 179--183
 []\TU/lmr/m/n/10.95 Claudia Christina Von Bastian, Adrian
  []
 
-[17]
+[15]
 Underfull \hbox (badness 3078) in paragraph at lines 220--225
 []\TU/lmr/m/n/10.95 Samet Akçay, Mikolaj E Kundegorski,
  []
@@ -832,7 +773,7 @@ Underfull \hbox (badness 2042) in paragraph at lines 253--259
 []\TU/lmr/m/n/10.95 Zihao Zhao, Haigang Zhang, and Jin-
  []
 
-[18]
+[16]
 Underfull \hbox (badness 1038) in paragraph at lines 289--295
 \TU/lmr/m/it/10.95 On Machine Learning And Applications
  []
@@ -842,12 +783,12 @@ Underfull \hbox (badness 1102) in paragraph at lines 329--334
 \TU/lmr/m/n/10.95 posal networks.  \TU/lmr/m/it/10.95 IEEE transactions on
  []
 
-
+[17]
 Underfull \hbox (badness 1137) in paragraph at lines 336--341
 \TU/lmr/m/n/10.95 Pierre Sermanet, Scott Reed, Dragomir
  []
 
-[19]
+
 Underfull \hbox (badness 1248) in paragraph at lines 361--365
 []\TU/lmr/m/n/10.95 Kaiming He, Xiangyu Zhang, Shaoqing
  []
@@ -889,7 +830,7 @@ Underfull \hbox (badness 6978) in paragraph at lines 392--395
 []\TU/lmr/m/n/10.95 Glenn Jocher.  Yolov5 by ultralyt-
  []
 
-
+[18]
 Underfull \hbox (badness 3735) in paragraph at lines 429--432
 \TU/lmr/m/n/10.95 Ayush Chaurasia.  Ultralytics yolov8:
  []
@@ -899,25 +840,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 429--432
 [][]$[][][][][] [] [] [] [][][][][][] [] [][][] [] [][][][][][][][][][][] []
  []
 
-) [20] (/Users/jixiaojian/Library/Application Support/Mountain Duck/Volumes.noindex/www.jidadiao.fun – WebDAV (HTTPS).localized/SATA硬盘2/工作/东方的工作/项目/基于深度学习的X光图像违禁品检测算法/Just-slap-together-a-survey/.texpadtmp/my_OF.aux)
+) [19
+
+] (/Users/jixiaojian/Library/Application Support/Mountain Duck/Volumes.noindex/www.jidadiao.fun – WebDAV (HTTPS).localized/SATA硬盘2/工作/东方的工作/项目/基于深度学习的X光图像违禁品检测算法/Just-slap-together-a-survey/.texpadtmp/my_OF.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/07/14>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `my_OF.out' has not changed.
-(rerunfilecheck)             Checksum: A606B477446348E092250EF1D18D5F70;2769.
+(rerunfilecheck)             Checksum: A7A2E4688E791E4314410E99FB3F3B8B;2723.
  ) 
 Here is how much of TeX's memory you used:
- 17043 strings out of 474773
- 381234 string characters out of 5757723
+ 16954 strings out of 474773
+ 379784 string characters out of 5757723
  1966839 words of memory out of 5000000
- 38928 multiletter control sequences out of 15000+600000
+ 38840 multiletter control sequences out of 15000+600000
  563995 words of font info for 85 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,14n,97p,556b,455s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,14n,97p,556b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on /Users/jixiaojian/Library/Application Support/Mountain Duck/Volumes.noindex/www.jidadiao.fun – WebDAV (HTTPS).localized/SATA硬盘2/工作/东方的工作/项目/基于深度学习的X光图像违禁品检测算法/Just-slap-together-a-survey/.texpadtmp/my_OF.pdf (20 pages).
+Output written on /Users/jixiaojian/Library/Application Support/Mountain Duck/Volumes.noindex/www.jidadiao.fun – WebDAV (HTTPS).localized/SATA硬盘2/工作/东方的工作/项目/基于深度学习的X光图像违禁品检测算法/Just-slap-together-a-survey/.texpadtmp/my_OF.pdf (19 pages).

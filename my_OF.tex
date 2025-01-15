@@ -35,7 +35,7 @@
 \phantomsection
 \addcontentsline{t oc}{section}{Abstract}
 \begin{abstract}
-随着深度学习技术的发展，X光图像检测在公共安全领域中扮演着越来越重要的角色。YOLO（You Only Look Once）系列算法以其卓越的实时性和准确性，在目标检测领域取得了显著成就。本综述旨在全面分析YOLO系列算法在X光图像检测中的应用、进展和挑战，探讨其在公共安全领域中的潜力和未来发展方向。 
+随着深度学习技术的发展，X光图像违禁品检测在公共安全领域中扮演着越来越重要的角色。YOLO（You Only Look Once）系列算法以其卓越的实时性和准确性，在目标检测领域取得了显著成就。本综述旨在全面分析YOLO系列算法在X光图像违禁品检测中的应用、进展和挑战，探讨其在公共安全领域中的潜力和未来发展方向。 
 \end{abstract}
 \end{@twocolumnfalse}
 ]
@@ -81,7 +81,7 @@ X射线成像是一种高效的无损检测技术，在行李安检中被广泛�
 \setlength{\tabcolsep}{3pt} % 调整列间距
 \renewcommand{\arraystretch}{1.5} % 调整行间距，增加高度
 \centering % 整个表格左右居中
-\begin{tabular*}{\linewidth}{>{\centering\arraybackslash}p{0.1 \linewidth}|%
+\begin{tabular*}{\linewidth}{>{\centering\arraybackslash}p{0.13 \linewidth}|%
 >{\centering\arraybackslash}p{0.3\linewidth}|%
 >{\centering\arraybackslash}p{0.4\linewidth}|%
 >{\centering\arraybackslash}p{0.17\linewidth}} % 指定每列宽度并居中对齐
@@ -122,23 +122,49 @@ X射线成像是一种高效的无损检测技术，在行李安检中被广泛�
 多视图X光图像的使用也在近年来成为提升检测性能的重要方向。研究\cite{liang2018automatic}通过结合多视角检测结果，验证了多视图输入在提高模型精度上的效果（R-FCN与ResNet-101结合时，多视图mAP为0.938，而单视图仅为0.798）。此外，工作\cite{steitz2018multi}改进了Faster RCNN的结构，通过多视图池化层提取三维特征，并生成三维候选区域以进行后续检测，实验结果表明多视图方法较单视图有显著性能提升（mAP：95.56\% vs. 91.23\%）。
 
 现有的X光图像违禁品检测算法整理如表\ref{X光图像违禁品检测技术概述}所示。从表中可以看出，已经有许多研究者们已经从多个角度对X光图像中的违禁品检测任务进行了广泛探索，其中，基于深度学习的X光图像违禁品检测方法更是在分类、检测及生成数据扩展等多个方向均取得了显著的研究进展。然而，尽管方法种类繁多，YOLO算法凭借其端到端设计和出色的实时性，已经在安检检测任务中脱颖而出，成为该领域的重要研究方向。后续章节将重点讨论YOLO在X光图像违禁品检测中的相关研究及其应用前景。
-
-\section{YOLO系列模型在X光图像检测中的应用}
+
+
 \subsection{YOLO 目标检测模型各版本的发展历程}
+
+\begin{figure*}[!htbp]
+  \begin{center}
+    \includegraphics[width=\textwidth]{发展流程图}
+    \end{center}
+  \caption{YOLO系列模型发展历程}
+  \label{发展流程}
+\end{figure*}
+
+\section{YOLO系列模型在X光图像违禁品检测中的应用}
 
 自 2016 年 YOLO（You Only Look Once）目标检测算法问世以来，该系列算法在不到十年的时间内经历了快速的迭代与演进。尤其是在应对复杂背景、小目标检测等挑战性场景方面，其表现取得了显著提升。这些技术进步使得 YOLO 系列算法逐渐成为 X 光图像违禁品检测这一关键领域的重要技术工具，为安全检查的效率与精准度提供了强有力的技术支撑。
 
-在该系列众多版本中，YOLOv1 至 YOLOv8，以及 YOLOX 等代表性模型，以卓越的实时性能、高检测精度和轻量化设计脱颖而出，在 X 光图像违禁品检测领域得到了广泛应用。图 XX 概述了 YOLO 系列模型从 YOLOv1 到 YOLOv8 的发展历程及各版本之间的技术继承关系。本节首先将系统性地介绍 YOLOv1 至 YOLOv8 及 YOLOX 的关键改进方向与核心技术特点，以清晰勾勒出 YOLO 系列算法在目标检测领域的技术演化脉络。随后，将进一步探讨这些版本在 X 光图像检测中的具体应用实践与表现。
+图\ref{发展流程}概述了 YOLO 系列模型从 YOLOv1 到 YOLOv11 的发展历程、发布时间及其作者。在众多版本中，YOLOv1 至 YOLOv8，以及 YOLOX 等代表性模型凭借卓越的实时性能、高检测精度和轻量化设计，在 X 光图像违禁品检测领域得到了广泛应用。因此，本节将重点聚焦于 YOLOv1 至 YOLOv8 及 YOLOX 的关键改进方向与核心技术特点，清晰勾勒出 YOLO 系列算法在目标检测领域的技术演化脉络。随后，还将进一步探讨这些版本在 X 光图像违禁品检测中的具体应用实践与表现。
+
+
+
+
 \subsubsection{YOLOv1}
+
+\begin{figure*}[!hbtp]
+  \begin{center}
+  \includegraphics[width=0.8\textwidth]{YOLOV1结构图}
+    \end{center}
+  \caption{YOLOV1网络结构}
+  \label{YOLOV1网络结构}
+\end{figure*}
+
 YOLO（You Only Look Once）\cite{redmon2016you} 是由 Redmon 等人于 2016 年提出的一种一阶段目标检测算法，它在目标检测领域具有重要的里程碑意义。与传统的两阶段检测模型（如 R-CNN\cite{girshick2014rich,girshick2015fast,ren2016faster} 系列）相比，YOLO 基于端到端的回归策略，直接预测目标边界框的位置和类别概率，从而实现了目标检测任务的统一建模和高效处理。这种创新设计显著简化了检测流程并提升了运行速度。
 
-YOLOv1 首次提出了将输入图像划分为 $S \times S$ 的网格的设计思路。每个网格单元负责预测 $B$ 个边界框及其置信度分数，并输出 $C$ 个类别的概率分布。具体而言，每个边界框的预测由 5 个参数组成：$(P_c, b_x, b_y, b_w, b_h)$，其中，$P_c$ 表示边界框的置信度分数，即目标是否存在及边界框预测的准确程度；$b_x$ 和 $b_y$ 是边界框中心点相对于网格单元的偏移量；$b_w$ 和 $b_h$ 分别表示边界框的宽度和高度。最终，YOLO 的输出可以被表示为一个维度为 $S \times S \times (B \times 5 + C)$ 的张量。
+如图\ref{YOLOV1网络结构}所示，YOLOv1 首次提出了将输入图像划分为 $S \times S$ 的网格的设计思路。每个网格单元负责预测 $B$ 个边界框及其置信度分数，并输出 $C$ 个类别的概率分布。具体而言，每个边界框的预测由 5 个参数组成：$(P_c, b_x, b_y, b_w, b_h)$，其中，$P_c$ 表示边界框的置信度分数，即目标是否存在及边界框预测的准确程度；$b_x$ 和 $b_y$ 是边界框中心点相对于网格单元的偏移量；$b_w$ 和 $b_h$ 分别表示边界框的宽度和高度。最终，YOLO 的输出可以被表示为一个维度为 $S \times S \times (B \times 5 + C)$ 的张量。
 
-如图 XX 所示，YOLOv1 的骨干网络基于 GoogLeNet\cite{szegedy2015going} 的设计思路，包含 24 个卷积层和 2 个全连接层，并引入了 $1 \times 1$ 卷积以减少计算复杂度和参数量。该模型首先在 ImageNet 数据集上进行预训练，以获取通用的特征表示；随后在 PASCAL VOC 数据集上进行微调与验证。在 PASCAL VOC 2007 数据集上，YOLOv1 实现了 63.4\% 的平均精度（AP），展现出在检测速度上的显著优势。
+YOLOv1 的骨干网络基于 GoogLeNet\cite{szegedy2015going} 的设计思路，包含 24 个卷积层和 2 个全连接层，并引入了 $1 \times 1$ 卷积以减少计算复杂度和参数量。该模型首先在 ImageNet 数据集上进行预训练，以获取通用的特征表示；随后在 PASCAL VOC 数据集上进行微调与验证。在 PASCAL VOC 2007 数据集上，YOLOv1 实现了 63.4\% 的平均精度（AP），展现出在检测速度上的显著优势。
 
 然而，YOLOv1 的设计也存在一定的局限性。由于采用固定网格划分以及每个网格单元固定数量的边界框，模型在检测密集目标和小目标时性能受限，容易出现漏检和定位不准确的问题。此外，为了减少边界框冗余，YOLOv1 引入了非极大值抑制\cite{neubeck2006efficient}（Non-Maximum Suppression, NMS），用于筛选与真实框最接近且置信度最高的预测边界框。
 
 YOLOv1 的提出开创了实时目标检测的先河，其端到端设计和统一的处理流程显著简化了目标检测过程，同时在速度和效率上取得了革命性进展。这一创新奠定了后续 YOLO 系列模型发展的坚实基础，为目标检测领域的研究和应用开辟了新的方向。
+
+
+
 \subsubsection{YOLOv2}
 YOLOv2\cite{redmon2017yolo9000} 是由 Joseph Redmon 和 Ali Farhadi 于 2017 年提出的目标检测算法，它在 YOLOv1 的基础上进行了多项关键改进，实现了在保持实时检测性能的同时显著提升检测精度。在网络结构方面，YOLOv2 采用了更为轻量化且高效的骨干网络 Darknet-19，该网络包含 19 个卷积层和 5 个最大池化层，并通过 $1 \times 1$ 卷积层有效减少了参数量，同时增强了特征提取能力。此外，YOLOv2 使用步幅为 2 的卷积层替代部分池化层，从而在降低特征图空间分辨率的同时保留了更多的细节信息，缓解了池化操作中常见的低层次细节丢失问题。
 
@@ -215,73 +241,10 @@ YOLOv8\cite{yolov8} 是由 Ultralytics 团队 于 2023 年 1 月 发布的最新
 凭借其卓越的性能、灵活的设计以及高效的部署能力，YOLOv8 成为目标检测和语义分割领域中不可忽视的重要工具。其多样化的模型规模和广泛的任务适配性，使其不仅适用于学术研究，也在工业应用中展现了巨大的潜力，为实时检测和分割任务提供了新的解决方案。
 
 
-
 \subsection{评价指标}
 \subsection{数据集介绍}
-\subsection{YOLO各版本在X光图像检测中的应用}
+\subsection{YOLO各版本在X光图像违禁品检测中的应用}
 
-\subsection{模版参考内容}
-光网络构架的演进是从传统的不透明到全光网透明架构。图~\ref{EVO}转自\cite{1}展示了其光网络的演进.
-\begin{figure}[!hbtp]
-  \begin{center}
-  \includegraphics[width=0.5\textwidth]{EVO}
-  \end{center}
-  \caption{光通信网络的演进}
-  \label{EVO}
-\end{figure}
-
-光信号的传输要通过在每个光交换或路由处的OEO转换。由于时机和经济的考虑，光信号的传输距离是有限的(e.g. 2000-2500km)。为了超越这个极限，信号的再生(re-amplify, re-shape and re-time, 称为3R)是至关重要的。然而在光信号的传输过程中，如果能更有效地降低其物理损伤，光信号的传输效率也能明显地提高，同时信号的再生所需的工作也能从一定程度上减轻。
-
-物理层的损伤可以被看成是对路由和波长分配决定的一种约束 (i.e. physical layer impairment constrained (PLIC-RWA))；或是有路由和波长分配来考虑之(i.e. physical layer impairment aware (PLIA-RWA))。在后者中，找到合适物理损伤的路由决定是可能的。简单地说既考虑物理损伤的路由和波长分配决定(PLI-RWA)。其算法可以简单归纳如下：
-
-首先利用经典RWA算法从可用资源中选路，其次是计算该波长路径上的物理损伤，验证该光路上的信号至目的节点时其OSNR值(光信噪比, Optical Signal Noise Rate)能否满足最低需求，如能满足需求则使用该光路建立连接，否则换下一条光路验证其物理损伤情况。图~\ref{IRWA}转自\cite{8}显示了其算法的基本步骤.
-\begin{figure}[!hbtp]
-  \begin{center}
-  \includegraphics[width=0.5\textwidth]{IRWA}
-  \end{center}
-  \caption{具有损伤感知能力的动态RWA算法}
-  \label{IRWA}
-\end{figure}
-
-
-光层组播是指通过在物理层对组播数据进行复制, 并使用光分波器/合波器等无源器件实现点到多点的连接。在WDM网络中实现光层组播首先要建立点到多点的光连接方式, 从而形成光组播树, 并为其分配波长, 即RWA。周迎富等人利用分层图模型提出光组播树多路径波长优化算法。图~\ref{MT}转自\cite{8}显示了其模型.
-\begin{figure}[!hbtp]
-  \begin{center}
-  \includegraphics[width=0.5\textwidth]{MT}
-  \end{center}
-  \caption{基于网络编码的光组播树优化RWA模型}
-  \label{MT}
-\end{figure}
-
-
-Goran Z. and Teodorovic D 等人提出了基于蜜蜂群优化算法(Bee Colony Optimization, BCO)的RWA(BCO-RWA)。\cite{6} BCO-RWA算法从某种程度上看是一种路由拓扑结构，通过对这种拓扑结构的阐释和理解，对光传输的路由进行选择，从而优化RWA的问题。
-
-模型通过模拟蜜蜂群选择路线来确定路由的最佳路线，其模拟的网络由即RWA。周迎富等人利用分层图模型提出光组播树多路径波长优化算法。图~\ref{BCO}转自\cite{6}显示。
-\begin{figure}[!hbtp]
-  \begin{center}
-  \includegraphics[width=0.5\textwidth]{BCO}
-  \end{center}
-  \caption{基于蜜蜂群算法的虚拟网络}
-  \label{BCO}
-\end{figure}
-
-
-通过对第三章中几种典型的优化RWA算法，比较无线传感器中的一些路由协议，我觉得对于在光通信中的RWA虽然是一个NP问题，但其实质上是一个优化路由问题。其目的并不是要完全的解决它，而是尽一切可能的去优化，使之能够达到应用层面的需求。
-
-对于第一种IRWA，可以对比到无线传感器中的能量认知路由(Energy-aware routing)。在无线传感器网络中，能源的约束是决定网络生命期的最主要因素。因此对于节点间的通信，以及节点与基站的通信都应该以尽可能减少能量开销为考虑的首要因素。针对此点，很多人也建立了各种各样的模型来达到此目的。比如，在通信前选好路径、将不活动的节点处于休眠状态、设置数据门限（当数据变化量大于某值才发送信号）等一系列的模型使各种不同的路由方式能适应各种不同的网络需要。我认为IRWA也能借鉴这些模型中的一部分来完成光通信网络的需要。
-
-对于第二种基于网络编码的光组播树优化RWA模型，无线传感器网络中也有对应的路由模型。等级路由(hierarchical routing)就是一种典型的基于簇状的路由方式。其模型将网络节点分为各个等级，最简单的是挑出一部分作为一簇节点中的“簇头”，这样，数据线从各节点传出，先经过簇头的封装优化，再传送给基站；同样，如果基站需要的数据在哪一个簇，它可以直接和簇头联系，而避免了广播需求而消耗的大量能量。图~\ref{TEEN}转自\cite{11}显示了一种典型的无线传感器网络等级路由协议。
-\begin{figure}[!hbtp]
-  \begin{center}
-  \includegraphics[width=0.5\textwidth]{TEEN}
-  \end{center}
-  \caption{TEEN和APTEEN中的等级簇}
-  \label{TEEN}
-\end{figure}
-
-而对于基于蜜蜂群优化算法的RWA，是一种比较特殊的优化算法，Goran Z.等人在将这种算法运用到RWA问题上时做了大量的计算仿真以及比较\cite{6}。正如文中所说，这种算法具有一定的可行性，并且其性能也很优秀于很多其他模型，但是由于其复杂程度以及不确定性等因素，只能适用于相应需求的光网络系统。
-
-事实上，由于光网络通信中有各种各样的需求与条件，不论是哪一种模型，都是基于某种或某些条件而建立的，并不能完全的适合各种网络需求。这样我们只能尽可能的利用不同的模型方式来满足各种不同的网络需求。
 
 
 \bibliographystyle{unsrt}
