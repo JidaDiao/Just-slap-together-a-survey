@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.26)  15 JAN 2025 17:01
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.26)  16 JAN 2025 14:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -685,18 +685,26 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 File: YOLOV1结构图.pdf Graphic file (type pdf)
 <use YOLOV1结构图.pdf>
 [6]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
-Underfull \vbox (badness 2932) has occurred while \output is active []
-
- [8] [9] [10] [11] [12] (./my_OF.bbl
-Underfull \hbox (badness 1082) in paragraph at lines 4--8
-[]\TU/lmr/m/n/10.95 Domingo Mery and Christian Pieringer.
+Underfull \hbox (badness 1248) in paragraph at lines 181--182
+[]\TU/STSong(0)/m/n/10.95 在 输 出 方 面，| \TU/lmr/m/n/10.95 YOLOv2 \TU/STSong(0)/m/n/10.95 的 输 出 尺 度 和
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+Underfull \vbox (badness 1490) has occurred while \output is active []
+
+ [8] [9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 1490) has occurred while \output is active []
+
+ [10] [11] [12] (./my_OF.bbl
+Underfull \hbox (badness 1082) in paragraph at lines 4--8
+[]\TU/lmr/m/n/10.95 Domingo Mery and Christian Pieringer.
+ []
 
 
 Underfull \hbox (badness 1622) in paragraph at lines 10--15
@@ -851,10 +859,10 @@ Package rerunfilecheck Info: File `my_OF.out' has not changed.
 (rerunfilecheck)             Checksum: A7A2E4688E791E4314410E99FB3F3B8B;2723.
  ) 
 Here is how much of TeX's memory you used:
- 16954 strings out of 474773
- 379784 string characters out of 5757723
+ 16924 strings out of 474773
+ 377840 string characters out of 5757723
  1966839 words of memory out of 5000000
- 38840 multiletter control sequences out of 15000+600000
+ 38810 multiletter control sequences out of 15000+600000
  563995 words of font info for 85 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,14n,97p,556b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
