@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.26)  16 JAN 2025 14:07
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.26)  16 JAN 2025 22:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -682,41 +682,61 @@ File: 发展流程图.pdf Graphic file (type pdf)
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 148.
 
-File: YOLOV1结构图.pdf Graphic file (type pdf)
-<use YOLOV1结构图.pdf>
+File: YOLOv1结构图.pdf Graphic file (type pdf)
+<use YOLOv1结构图.pdf>
 [6]
-Underfull \hbox (badness 1248) in paragraph at lines 181--182
-[]\TU/STSong(0)/m/n/10.95 在 输 出 方 面，| \TU/lmr/m/n/10.95 YOLOv2 \TU/STSong(0)/m/n/10.95 的 输 出 尺 度 和
+File: YOLOv2结构图.pdf Graphic file (type pdf)
+<use YOLOv2结构图.pdf>
+
+Underfull \hbox (badness 3919) in paragraph at lines 190--191
+[]\TU/STSong(0)/m/n/10.95 如 图[][]\TU/lmr/m/n/10.95 4[][]\TU/STSong(0)/m/n/10.95 所 示，| \TU/lmr/m/n/10.95 YOLOv2 \TU/STSong(0)/m/n/10.95 的 输 出 尺 度 和
  []
 
+File: YOLOv3结构图.pdf Graphic file (type pdf)
+<use YOLOv3结构图.pdf>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-Underfull \vbox (badness 1490) has occurred while \output is active []
+File: SPP.pdf Graphic file (type pdf)
+<use SPP.pdf>
 
- [8] [9]
+Underfull \vbox (badness 5862) has occurred while \output is active []
+
+ [8]
+Underfull \vbox (badness 6220) has occurred while \output is active []
+
+ [9] [10]
+File: YOLOX解耦头.pdf Graphic file (type pdf)
+<use YOLOX解耦头.pdf>
+ [11]
+Underfull \vbox (badness 2359) has occurred while \output is active []
+
+ [12]
+File: 辅助检测头.pdf Graphic file (type pdf)
+<use 辅助检测头.pdf>
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \vbox (badness 1490) has occurred while \output is active []
-
- [10] [11] [12] (./my_OF.bbl
+ (./my_OF.bbl
 Underfull \hbox (badness 1082) in paragraph at lines 4--8
 []\TU/lmr/m/n/10.95 Domingo Mery and Christian Pieringer.
  []
 
 
+Underfull \vbox (badness 2932) has occurred while \output is active []
+
+ [13]
 Underfull \hbox (badness 1622) in paragraph at lines 10--15
 []\TU/lmr/m/n/10.95 Besma Abidi, Yue Zheng, Andrei Gri-
  []
 
-[13]
+
 Underfull \hbox (badness 1342) in paragraph at lines 71--76
 []\TU/lmr/m/n/10.95 Neelanjan Bhowmik, Qian Wang, Yona
  []
 
-
+[14]
 Underfull \hbox (badness 7326) in paragraph at lines 78--83
 []\TU/lmr/m/n/10.95 Muhammet Baştan, Mohammad Reza
  []
@@ -741,7 +761,7 @@ Underfull \hbox (badness 1014) in paragraph at lines 110--116
 []\TU/lmr/m/n/10.95 Domingo Mery, Erick Svec, and Marco
  []
 
-[14]
+
 Underfull \hbox (badness 10000) in paragraph at lines 139--143
 []\TU/lmr/m/n/10.95 Domingo Mery, German Mondragon,
  []
@@ -751,7 +771,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--153
 []\TU/lmr/m/n/10.95 Muhammet Bastan, Wonmin Byeon,
  []
 
-
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 155--159
 []\TU/lmr/m/n/10.95 Ludwig Schmidt-Hackenberg, Moham-
  []
@@ -766,12 +786,12 @@ Underfull \hbox (badness 1701) in paragraph at lines 179--183
 []\TU/lmr/m/n/10.95 Claudia Christina Von Bastian, Adrian
  []
 
-[15]
+
 Underfull \hbox (badness 3078) in paragraph at lines 220--225
 []\TU/lmr/m/n/10.95 Samet Akçay, Mikolaj E Kundegorski,
  []
 
-
+[16]
 Underfull \hbox (badness 4569) in paragraph at lines 240--244
 []\TU/lmr/m/n/10.95 Anna Bosch, Andrew Zisserman, and
  []
@@ -781,17 +801,17 @@ Underfull \hbox (badness 2042) in paragraph at lines 253--259
 []\TU/lmr/m/n/10.95 Zihao Zhao, Haigang Zhang, and Jin-
  []
 
-[16]
+
 Underfull \hbox (badness 1038) in paragraph at lines 289--295
 \TU/lmr/m/it/10.95 On Machine Learning And Applications
  []
 
-
+[17]
 Underfull \hbox (badness 1102) in paragraph at lines 329--334
 \TU/lmr/m/n/10.95 posal networks.  \TU/lmr/m/it/10.95 IEEE transactions on
  []
 
-[17]
+
 Underfull \hbox (badness 1137) in paragraph at lines 336--341
 \TU/lmr/m/n/10.95 Pierre Sermanet, Scott Reed, Dragomir
  []
@@ -806,6 +826,7 @@ Underfull \hbox (badness 1248) in paragraph at lines 374--379
 []\TU/lmr/m/n/10.95 Kaiming He, Xiangyu Zhang, Shaoqing
  []
 
+[18]
 
 Package fontspec Warning: Font "STFangsong" does not contain requested Script
 (fontspec)                "CJK".
@@ -838,7 +859,7 @@ Underfull \hbox (badness 6978) in paragraph at lines 392--395
 []\TU/lmr/m/n/10.95 Glenn Jocher.  Yolov5 by ultralyt-
  []
 
-[18]
+
 Underfull \hbox (badness 3735) in paragraph at lines 429--432
 \TU/lmr/m/n/10.95 Ayush Chaurasia.  Ultralytics yolov8:
  []
@@ -848,9 +869,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 429--432
 [][]$[][][][][] [] [] [] [][][][][][] [] [][][] [] [][][][][][][][][][][] []
  []
 
-) [19
-
-] (/Users/jixiaojian/Library/Application Support/Mountain Duck/Volumes.noindex/www.jidadiao.fun – WebDAV (HTTPS).localized/SATA硬盘2/工作/东方的工作/项目/基于深度学习的X光图像违禁品检测算法/Just-slap-together-a-survey/.texpadtmp/my_OF.aux)
+) [19] (/Users/jixiaojian/Library/Application Support/Mountain Duck/Volumes.noindex/www.jidadiao.fun – WebDAV (HTTPS).localized/SATA硬盘2/工作/东方的工作/项目/基于深度学习的X光图像违禁品检测算法/Just-slap-together-a-survey/.texpadtmp/my_OF.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/07/14>
@@ -859,12 +878,12 @@ Package rerunfilecheck Info: File `my_OF.out' has not changed.
 (rerunfilecheck)             Checksum: A7A2E4688E791E4314410E99FB3F3B8B;2723.
  ) 
 Here is how much of TeX's memory you used:
- 16924 strings out of 474773
- 377840 string characters out of 5757723
+ 16981 strings out of 474773
+ 378842 string characters out of 5757723
  1966839 words of memory out of 5000000
- 38810 multiletter control sequences out of 15000+600000
+ 38867 multiletter control sequences out of 15000+600000
  563995 words of font info for 85 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,14n,97p,556b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,14n,97p,556b,455s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on /Users/jixiaojian/Library/Application Support/Mountain Duck/Volumes.noindex/www.jidadiao.fun – WebDAV (HTTPS).localized/SATA硬盘2/工作/东方的工作/项目/基于深度学习的X光图像违禁品检测算法/Just-slap-together-a-survey/.texpadtmp/my_OF.pdf (19 pages).
