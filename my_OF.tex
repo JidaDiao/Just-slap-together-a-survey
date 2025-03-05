@@ -49,7 +49,7 @@
 X射线成像是一种高效的无损检测技术，在行李安检中被广泛用于检测隐藏的危险物品。其成像原理基于X射线管发射的高能电离射线穿透扫描对象，根据物体材料的密度和厚度导致射线信号的衰减（如图\ref{X光图像原理}A所示）。衰减的程度可以用公式 $I_x = I_0 e^{-\mu x}$ 表示，其中 $I_x$ 是穿透材料后的射线强度，$I_0$ 为初始射线强度，$\mu$ 为线性衰减系数，$x$ 为材料厚度\cite{mery2020computer}。材料的密度越高，衰减越显著，因此在图像中表现为强度较低的区域（如图\ref{X光图像原理}B所示）。这种物理特性使X射线成像在检测高密度危险物品（如金属武器和爆炸物）时尤为有效，同时也能够区分低密度有机材料（如塑料和液体）。
 \begin{figure*}[!hbtp]
   \begin{center}
-  \includegraphics[width=0.98\textwidth]{X光示意图}
+  \includegraphics[width=0.98\textwidth]{figure/X光示意图}
   \end{center}
   \caption{X光图像成像原理}
   \label{X光图像原理}
@@ -128,7 +128,7 @@ X射线成像是一种高效的无损检测技术，在行李安检中被广泛�
 
 \begin{figure*}[!htbp]
   \begin{center}
-    \includegraphics[width=\textwidth]{发展流程图}
+    \includegraphics[width=\textwidth]{figure/发展流程图}
     \end{center}
   \caption{YOLO系列模型发展历程}
   \label{发展流程}
@@ -147,7 +147,7 @@ X射线成像是一种高效的无损检测技术，在行李安检中被广泛�
 
 \begin{figure*}[!hbtp]
   \begin{center}
-  \includegraphics[width=0.85\textwidth]{YOLOv1结构图}
+  \includegraphics[width=0.85\textwidth]{figure/YOLOv1结构图}
     \end{center}
   \caption{YOLOv1网络结构}
   \label{YOLOV1网络结构}
@@ -172,7 +172,7 @@ YOLOv1 的提出开创了实时目标检测的先河，其端到端设计和统�
 
 \begin{figure*}[!hbtp]
   \begin{center}
-  \includegraphics[width=0.85\textwidth]{YOLOv2结构图}
+  \includegraphics[width=0.85\textwidth]{figure/YOLOv2结构图}
     \end{center}
   \caption{YOLOv2网络结构}
   \label{YOLOV2网络结构}
@@ -198,15 +198,16 @@ YOLOv2\cite{redmon2017yolo9000} 是由 Joseph Redmon 和 Ali Farhadi 于 2017 �
 
 \begin{figure*}[!hbtp]
   \begin{center}
-  \includegraphics[width=0.7\textwidth]{YOLOv3结构图}
+  \includegraphics[width=0.7\textwidth]{figure/YOLOv3结构图}
     \end{center}
   \caption{YOLOv3网络结构}
   \label{YOLOV3网络结构}
 \end{figure*}
 
+
 \begin{figure}[!hbtp]
   \begin{center}
-  \includegraphics[width=0.45\textwidth]{SPP}
+  \includegraphics[width=0.45\textwidth]{figure/SPP}
     \end{center}
   \caption{空间金字塔池化 SPP}
   \label{SPP}
@@ -236,6 +237,7 @@ YOLOv4\cite{bochkovskiy2020yolov4} 是由 Alexey Bochkovskiy 等人于 2020 年�
 \subsubsection{YOLOv5}
 YOLOv5\cite{yolov5} 是由 Ultralytics 公司 于 2020 年 发布的目标检测算法，与之前的 YOLO 系列相比，其在易用性 和部署性能 方面实现了显著突破。作为 YOLO 系列的延续与优化，YOLOv5 通过多项创新设计进一步提升了检测精度、运行效率和适配能力。其中，引入的 Focus 模块 、C3 模块 、SPPF 模块 和 AutoAnchor 技术 ，在不同层面优化了模型结构、锚框生成和多尺度目标的检测能力，使其成为一款更高效且易于部署的目标检测框架。
 
+
 在网络结构方面，YOLOv5 通过关键模块的改进进一步增强了模型性能。首先，Focus 模块 通过对输入特征图进行切片操作实现了无损下采样，不仅大幅提高了下采样效率，还保留了更多空间细节信息，从而增强了对小目标的检测能力。其次，YOLOv5 的 C3 模块 是对 YOLOv4 中 CSP 模块 的优化，通过跨层部分连接减少梯度冗余的同时，在不显著增加参数量的前提下有效提升了特征表达能力。此外，模型还引入了 SPPF 模块（快速空间金字塔池化） ，通过整合不同尺度的特征图来增强对多尺度目标的表达能力，尤其是在复杂场景中有效捕捉多目标信息。
 
 在锚框生成方面，YOLOv5 创新性地采用了 AutoAnchor 技术 ，能够根据训练数据集的特性和配置动态优化锚框大小。这种动态调整不仅简化了锚框参数设置的流程，还提升了模型对遮挡目标的检测精度和召回率。此外，YOLOv5 提供了全面的数据增强策略，包括 Mosaic 数据增强 、复制粘贴（Copy-Paste） 、MixUp 、随机仿射变换 和颜色变换 等，大幅提升了训练样本的多样性和模型的泛化能力，使其在复杂场景下表现更加鲁棒。
@@ -247,7 +249,7 @@ YOLOv5 的显著特点之一是模型版本的多样性 。它提供了五种不
 
 \begin{figure*}[!hbtp]
   \begin{center}
-  \includegraphics[width=0.8\textwidth]{YOLOX解耦头}
+  \includegraphics[width=0.8\textwidth]{figure/YOLOX解耦头}
     \end{center}
   \caption{YOLOX解耦头}
   \label{YOLOX解耦头}
@@ -281,7 +283,7 @@ YOLOv7 的核心架构引入了扩展高效层聚合网络（Extended Efficient 
 
 \begin{figure}[!hbtp]
   \begin{center}
-  \includegraphics[width=0.48\textwidth]{辅助检测头}
+  \includegraphics[width=0.48\textwidth]{figure/辅助检测头}
     \end{center}
   \caption{辅助检测头}
   \label{辅助检测头}

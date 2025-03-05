@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.26)  16 JAN 2025 22:34
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.26)  5 MAR 2025 12:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -530,7 +530,7 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \everycr=\toks24
 \minrowclearance=\skip71
 \rownum=\count321
-) (/Users/jixiaojian/Library/Application Support/Mountain Duck/Volumes.noindex/www.jidadiao.fun – WebDAV (HTTPS).localized/SATA硬盘2/工作/东方的工作/项目/基于深度学习的X光图像违禁品检测算法/Just-slap-together-a-survey/.texpadtmp/my_OF.aux)
+) (/Users/jixiaojian/Library/Application Support/Mountain Duck/Volumes.noindex/JntmNAS.localized/SATA硬盘2/工作/东方的工作/项目/基于深度学习的X光图像违禁品检测算法/Just-slap-together-a-survey/.texpadtmp/my_OF.aux)
 \openout1 = `my_OF.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
@@ -646,7 +646,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 26.
-(/Users/jixiaojian/Library/Application Support/Mountain Duck/Volumes.noindex/www.jidadiao.fun – WebDAV (HTTPS).localized/SATA硬盘2/工作/东方的工作/项目/基于深度学习的X光图像违禁品检测算法/Just-slap-together-a-survey/.texpadtmp/my_OF.out) (/Users/jixiaojian/Library/Application Support/Mountain Duck/Volumes.noindex/www.jidadiao.fun – WebDAV (HTTPS).localized/SATA硬盘2/工作/东方的工作/项目/基于深度学习的X光图像违禁品检测算法/Just-slap-together-a-survey/.texpadtmp/my_OF.out)
+(/Users/jixiaojian/Library/Application Support/Mountain Duck/Volumes.noindex/JntmNAS.localized/SATA硬盘2/工作/东方的工作/项目/基于深度学习的X光图像违禁品检测算法/Just-slap-together-a-survey/.texpadtmp/my_OF.out) (/Users/jixiaojian/Library/Application Support/Mountain Duck/Volumes.noindex/JntmNAS.localized/SATA硬盘2/工作/东方的工作/项目/基于深度学习的X光图像违禁品检测算法/Just-slap-together-a-survey/.texpadtmp/my_OF.out)
 \@outlinefile=\write3
 \openout3 = `my_OF.out'.
 
@@ -658,8 +658,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 42.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 51.
-File: X光示意图.pdf Graphic file (type pdf)
-<use X光示意图.pdf>
+File: figure/X光示意图.pdf Graphic file (type pdf)
+<use figure/X光示意图.pdf>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -675,31 +675,31 @@ Overfull \hbox (25.19995pt too wide) in alignment at lines 89--108
  []
 
 [3] [4]
-File: 发展流程图.pdf Graphic file (type pdf)
-<use 发展流程图.pdf>
+File: figure/发展流程图.pdf Graphic file (type pdf)
+<use figure/发展流程图.pdf>
  [5]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 148.
 
-File: YOLOv1结构图.pdf Graphic file (type pdf)
-<use YOLOv1结构图.pdf>
+File: figure/YOLOv1结构图.pdf Graphic file (type pdf)
+<use figure/YOLOv1结构图.pdf>
 [6]
-File: YOLOv2结构图.pdf Graphic file (type pdf)
-<use YOLOv2结构图.pdf>
+File: figure/YOLOv2结构图.pdf Graphic file (type pdf)
+<use figure/YOLOv2结构图.pdf>
 
 Underfull \hbox (badness 3919) in paragraph at lines 190--191
 []\TU/STSong(0)/m/n/10.95 如 图[][]\TU/lmr/m/n/10.95 4[][]\TU/STSong(0)/m/n/10.95 所 示，| \TU/lmr/m/n/10.95 YOLOv2 \TU/STSong(0)/m/n/10.95 的 输 出 尺 度 和
  []
 
-File: YOLOv3结构图.pdf Graphic file (type pdf)
-<use YOLOv3结构图.pdf>
+File: figure/YOLOv3结构图.pdf Graphic file (type pdf)
+<use figure/YOLOv3结构图.pdf>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-File: SPP.pdf Graphic file (type pdf)
-<use SPP.pdf>
+File: figure/SPP.pdf Graphic file (type pdf)
+<use figure/SPP.pdf>
 
 Underfull \vbox (badness 5862) has occurred while \output is active []
 
@@ -707,14 +707,14 @@ Underfull \vbox (badness 5862) has occurred while \output is active []
 Underfull \vbox (badness 6220) has occurred while \output is active []
 
  [9] [10]
-File: YOLOX解耦头.pdf Graphic file (type pdf)
-<use YOLOX解耦头.pdf>
+File: figure/YOLOX解耦头.pdf Graphic file (type pdf)
+<use figure/YOLOX解耦头.pdf>
  [11]
 Underfull \vbox (badness 2359) has occurred while \output is active []
 
  [12]
-File: 辅助检测头.pdf Graphic file (type pdf)
-<use 辅助检测头.pdf>
+File: figure/辅助检测头.pdf Graphic file (type pdf)
+<use figure/辅助检测头.pdf>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -869,7 +869,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 429--432
 [][]$[][][][][] [] [] [] [][][][][][] [] [][][] [] [][][][][][][][][][][] []
  []
 
-) [19] (/Users/jixiaojian/Library/Application Support/Mountain Duck/Volumes.noindex/www.jidadiao.fun – WebDAV (HTTPS).localized/SATA硬盘2/工作/东方的工作/项目/基于深度学习的X光图像违禁品检测算法/Just-slap-together-a-survey/.texpadtmp/my_OF.aux)
+) [19] (/Users/jixiaojian/Library/Application Support/Mountain Duck/Volumes.noindex/JntmNAS.localized/SATA硬盘2/工作/东方的工作/项目/基于深度学习的X光图像违禁品检测算法/Just-slap-together-a-survey/.texpadtmp/my_OF.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/07/14>
@@ -878,12 +878,12 @@ Package rerunfilecheck Info: File `my_OF.out' has not changed.
 (rerunfilecheck)             Checksum: A7A2E4688E791E4314410E99FB3F3B8B;2723.
  ) 
 Here is how much of TeX's memory you used:
- 16981 strings out of 474773
- 378842 string characters out of 5757723
+ 16990 strings out of 474773
+ 379176 string characters out of 5757723
  1966839 words of memory out of 5000000
  38867 multiletter control sequences out of 15000+600000
  563995 words of font info for 85 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,14n,97p,556b,455s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on /Users/jixiaojian/Library/Application Support/Mountain Duck/Volumes.noindex/www.jidadiao.fun – WebDAV (HTTPS).localized/SATA硬盘2/工作/东方的工作/项目/基于深度学习的X光图像违禁品检测算法/Just-slap-together-a-survey/.texpadtmp/my_OF.pdf (19 pages).
+Output written on /Users/jixiaojian/Library/Application Support/Mountain Duck/Volumes.noindex/JntmNAS.localized/SATA硬盘2/工作/东方的工作/项目/基于深度学习的X光图像违禁品检测算法/Just-slap-together-a-survey/.texpadtmp/my_OF.pdf (19 pages).
